@@ -11,9 +11,12 @@ ul{
 a{
   text-decoration: none;
 }
-a:hover , a:focus,
+a:hover , a:focus{
+  color: var(--iris, #4D5AE5);
+}
 button:hover , button:focus{
-  color:#404BBF;
+
+background: var(--ocean, #404BBF);
 }
 /* #endregion */
 /* #region header */
@@ -123,8 +126,8 @@ header{
   text-transform: capitalize;
 }
 .section-portfolio-photo{
-  width:360;
-  height:300;
+  width:360px;
+  height:300px;
 }
 .section-portfolio-photo-title{
   font-size: 20px;
