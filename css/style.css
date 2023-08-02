@@ -42,7 +42,7 @@ header{
   color: var(--navyblue, #2E2F42);
 }
 .header-nav-link:hover , .header-nav-link:focus{
-  color: var(--iris, #4D5AE5);
+  color: var(--iris, #404BBF);
 }
 .contacts{
   font-style: normal;
@@ -51,8 +51,8 @@ header{
   color: var(--slate, #434455);
   font-weight: 400;
 }
-.contacts-info:hover{
-  color: var(--iris, #4D5AE5);
+.contacts-info:hover, .contacts-info:focus{
+  color: var(--iris, #404BBF);
 }
 /* #endregion */
 /* #region section main */
